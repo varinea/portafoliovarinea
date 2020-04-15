@@ -83,6 +83,32 @@ header {
   top: 1580px;
 }
 
+.pokepedia_title{
+  position: absolute;
+
+  left: 138px;
+  top: 1931px;
+}
+
+.pokepediaModal {
+  position: absolute;
+width: 268px;
+height: 175px;
+left: 138px;
+top: 2009px;
+
+font-family: "Josefin Sans";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 100%;
+/* or 16px */
+
+color: #FFFFFF;
+
+}
+
+
 .group_90 {
   position: absolute;
   width: 593.02px;
@@ -99,10 +125,13 @@ header {
   top: 1757px;
 }
 
+
 .tecnologia_img {
   position: absolute;
   left: 123px;
-  top: 2800px;
+  top: 2700px;
+  width: 25em;
+  height: 3.5em;
 }
 
 /*header MENU*/
@@ -180,6 +209,246 @@ header {
   transform: rotateY(-90deg);
 }
 
+.icons_img1 {
+  position: absolute;
+  left: 123px;
+  top: 390%;
+}
+
+.icons_text1 {
+  position: absolute;
+  width: 75px;
+  height: 25px;
+  left: 130px;
+  top: 410%;
+
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+  color: white;
+}
+
+.icons_img2 {
+  position: absolute;
+  left: 436px;
+  top: 390%;
+}
+
+.icons_text2 {
+  position: absolute;
+  width: 75px;
+  height: 25px;
+  left: 456px;
+  top: 410%;
+
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+  color: white;
+}
+
+.icons_img3 {
+  position: absolute;
+  left: 698px;
+  top: 390%;
+}
+
+.icons_text3 {
+  position: absolute;
+  width: 75px;
+  height: 25px;
+  left: 670px;
+  top: 410%;
+
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+  color: white;
+}
+
+.icons_img4 {
+  position: absolute;
+  left: 963px;
+  top: 390%;
+}
+
+.icons_text4 {
+  position: absolute;
+  width: 75px;
+  height: 25px;
+  left: 974px;
+  top: 410%;
+
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+  color: white;
+}
+
+.icons_img5 {
+  position: absolute;
+  left: 1270px;
+  top: 390%;
+}
+
+.icons_text5 {
+  position: absolute;
+  width: 75px;
+  height: 25px;
+  left: 1250px;
+  top: 410%;
+
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+  color: white;
+}
+
+.icons_img6 {
+  position: absolute;
+  left: 123px;
+  top: 435%;
+}
+
+.icons_text6 {
+  position: absolute;
+  width: 75px;
+  height: 25px;
+  left: 123px;
+  top: 460%;
+
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+  color: white;
+}
+
+.icons_img7 {
+  position: absolute;
+  left: 435px;
+  top: 435%;
+}
+
+.icons_text7 {
+  position: absolute;
+  width: 75px;
+  height: 25px;
+  left: 460px;
+  top: 460%;
+
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+  color: white;
+}
+
+.icons_img8 {
+  position: absolute;
+  left: 698px;
+  top: 435%;
+}
+
+.icons_text8 {
+  position: absolute;
+  width: 75px;
+  height: 25px;
+  left: 698px;
+  top: 460%;
+
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+  color: white;
+}
+
+.icons_img9 {
+  position: absolute;
+  left: 968px;
+  top: 435%;
+}
+
+.icons_text9 {
+  position: absolute;
+  width: 75px;
+  height: 25px;
+  left: 968px;
+  top: 460%;
+
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+  color: white;
+}
+
+.icons_img10 {
+  position: absolute;
+  left: 1237px;
+  top: 435%;
+}
+
+.icons_text10 {
+  position: absolute;
+  width: 75px;
+  height: 25px;
+  left: 1237px;
+  top: 460%;
+
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+  color: white;
+}
+
+.pink_footer {
+  position: absolute;
+  width: 1519px;
+  height: 50%;
+  left: 0px;
+  top: 3800px;
+
+  background: #F30083;
+}
+
 /*FONDO NEBULOSA*/
 body {
   background-image: url("img/fondo_espacial.png");
@@ -190,6 +459,11 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
 }
+
+
+
+
+
 
 
 /*
