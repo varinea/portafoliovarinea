@@ -1,15 +1,15 @@
 
 /* Demo purposes only */
-$(".hover").mouseleave(
+$(".home").mouseleave(
   function () {
-    $(this).removeClass("hover");
+    $(this).removeClass("home");
   }
 );
 
 
 /* Demo purposes only */
-$(".hover").mouseleave(
+$(".home").mouseleave(
   function () {
-    $(this).removeClass("hover");
+    $(this).removeClass("home");
   }
 ); 

@@ -168,9 +168,6 @@ header {
   justify-content: center;
   }
   
-
-
-
 .tecnologia_img {
   position: absolute;
   left: 0%;
@@ -275,8 +272,8 @@ header {
   font-family: "Josefin Sans";
   font-style: italic;
   font-weight: bold;
-  font-size: 25px;
-  /* identical to box height */
+  font-size: 20px;
+
 
   text-transform: uppercase;
   color: white;
@@ -298,8 +295,7 @@ header {
   font-family: "Josefin Sans";
   font-style: italic;
   font-weight: bold;
-  font-size: 25px;
-  /* identical to box height */
+  font-size: 20px;
 
   text-transform: uppercase;
   color: white;
@@ -321,8 +317,7 @@ header {
   font-family: "Josefin Sans";
   font-style: italic;
   font-weight: bold;
-  font-size: 25px;
-  /* identical to box height */
+  font-size: 20px;
 
   text-transform: uppercase;
   color: white;
@@ -344,8 +339,7 @@ header {
   font-family: "Josefin Sans";
   font-style: italic;
   font-weight: bold;
-  font-size: 25px;
-  /* identical to box height */
+  font-size: 20px;
 
   text-transform: uppercase;
   color: white;
@@ -368,8 +362,7 @@ header {
   font-family: "Josefin Sans";
   font-style: italic;
   font-weight: bold;
-  font-size: 25px;
-  /* identical to box height */
+  font-size: 20px;
 
   text-transform: uppercase;
   color: white;
@@ -391,8 +384,7 @@ header {
   font-family: "Josefin Sans";
   font-style: italic;
   font-weight: bold;
-  font-size: 25px;
-  /* identical to box height */
+  font-size: 20px;
 
   text-transform: uppercase;
   color: white;
@@ -414,8 +406,7 @@ header {
   font-family: "Josefin Sans";
   font-style: italic;
   font-weight: bold;
-  font-size: 25px;
-  /* identical to box height */
+  font-size: 20px;
 
   text-transform: uppercase;
   color: white;
@@ -437,8 +428,7 @@ header {
   font-family: "Josefin Sans";
   font-style: italic;
   font-weight: bold;
-  font-size: 25px;
-  /* identical to box height */
+  font-size: 20px;
 
   text-transform: uppercase;
   color: white;
@@ -461,7 +451,7 @@ header {
   font-style: italic;
   font-weight: bold;
   font-size: 25px;
-  /* identical to box height */
+
 
   text-transform: uppercase;
   color: white;
@@ -483,8 +473,7 @@ header {
   font-family: "Josefin Sans";
   font-style: italic;
   font-weight: bold;
-  font-size: 25px;
-  /* identical to box height */
+  font-size: 20px;
 
   text-transform: uppercase;
   color: white;
@@ -492,7 +481,8 @@ header {
 
 .pink_footer {
   position: absolute;
-  width: 1519px;
+  align-items: flex-end;
+  width: 100%;
   height: 50%;
   left: 0px;
   top: 3800px;
@@ -501,10 +491,18 @@ header {
 }
 
 /*FONDO NEBULOSA*/
+.v_img {
+  width: 234px;
+  height: 269px;
+  left: 1528px;
+  top: 690px;
+}
+
+/*FONDO NEBULOSA*/
 body {
   background-image: url("img/fondo_espacial.png");
   background-attachment: fixed;
-  -webkit-background-size: cover;
+  background-size: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
