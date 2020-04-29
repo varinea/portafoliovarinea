@@ -100,35 +100,76 @@ header {
 
 .pokepediaModal {
   position: absolute;
-  width: 25%;
-  height: 20%;
+  width: 27%;
   left: 0%;
   top: 550%;
-
+  text-transform: uppercase;
   font-family: "Josefin Sans";
-  font-size: 21px;
-  letter-spacing: 0em;
+  font-size: 14px;
   text-align: left;
-  /* or 16px */
+  line-height: 20px;
+
   color: #FFFFFF;
 }
 
-.pokepediaModal2 {
+.conocela{
   position: absolute;
-  width: 30%;
-  height: 20%;
   left: 0%;
-  top: 590%;
+  top: 120%;
 
-  font-family: "Josefin Sans";
-  font-size: 21px;
- 
-  text-align: left;
-  /* or 16px */
-
-  color: #FFFFFF;
-
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 20px;
 }
+
+.pokepedia_iphone {
+  position: absolute;
+  left: 28%;
+  top: 500%;
+}
+
+.button_demo { 
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  
+  position: absolute;
+  width: 124px;
+  height: 42px;
+  left: 165px;
+  top: 650%;
+  
+  border-radius: 5px;
+  text-transform: uppercase;
+  border: 2px solid #F30083;
+  font-family: "Josefin Sans";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button_code { 
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  
+  position: absolute;
+  width: 124px;
+  height: 42px;
+  left: 5px;
+  top: 650%;
+  
+  border-radius: 5px;
+  text-transform: uppercase;
+  border: 2px solid #F30083;
+  font-family: "Josefin Sans";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+
+
 
 .tecnologia_img {
   position: absolute;
@@ -216,7 +257,6 @@ header {
   position: absolute;
   width: 1257px;
   height: 730px;
-
 }
 
 .icons_img1 {
