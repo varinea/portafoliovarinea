@@ -1,0 +1,154 @@
+.proyectos_img {
+    position: absolute;
+    width: 40%;
+    left: 0%;
+    top: 1580px;
+  }
+  
+  .pokepedia_title {
+    position: absolute;
+    left: 0%;
+    top: 530%;
+  }
+  
+  .pokepediaModal {
+    position: absolute;
+    width: 22%;
+    left: 0%;
+    top: 550%;
+
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  
+  .conocela{
+    position: absolute;
+    left: 0%;
+    top: 115%;
+  
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  
+  .pokepedia_iphone {
+    position: absolute;
+    left: 22%;
+    top: 500%;
+  }
+  
+  .button_code { 
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    left: 5px;
+    top: 640%;
+    
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 2px solid #F30083;
+    font-family: "Josefin Sans";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+  .button_demo { 
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    
+    position: absolute;
+    width: 20%;
+    height: 9%;
+    left: 5px;
+    top: 655%;
+    
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 2px solid #F30083;
+    font-family: "Josefin Sans";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .movie_title {
+    position: absolute;
+    left: 52%;
+    top: 530%;
+  }
+  
+  .movieModal {
+    position: absolute;
+    width: 22%;
+    left: 52%;
+    top: 550%;
+    
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  
+  .conocelaDos{
+    position: absolute;
+    left: 0%;
+    top: 115%;
+  
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  
+  .movie_iphone {
+    position: absolute;
+    left: 76%;
+    top: 500%;
+  }
+  
+  .button_codeMovie { 
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    left: 52%;
+    top: 640%;
+    
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 2px solid #F30083;
+    font-family: "Josefin Sans";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button_demoMovie { 
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    left: 52%;
+    top: 655%;
+    
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 2px solid #F30083;
+    font-family: "Josefin Sans";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }

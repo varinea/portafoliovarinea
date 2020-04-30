@@ -2,12 +2,19 @@
 <html lang="esp">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Portafolio Front-End Developer de Varinea López Garrido">
     <link rel="icon" href="img/favicon/favicon-96x96.png" type="image/png" />
     <title>Portafolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/header.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/presentacion.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/proyectos.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/tecnologias.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/footer.css" />
+
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,500,600,700,700i&display=swap"
         rel="stylesheet">
 </head>
@@ -28,12 +35,11 @@
         </div>
     </header>
 
-    <!--<h1 class="hola">HOLA!</h1>  -->
 
     <div class="container">
 
-        <img class="hola_img" src="./img/hola.png" alt="Hola, Soy Varinea López"></img>
 
+        <img class="hola_img" src="./img/hola.png" alt="Hola, Soy Varinea López"></img>
         <p class="quienSoy">
             <span class="pinkText">Soy</span> Varinea López Garrido, me dicen Vari, me desempeño como <span
                 class="laboratoria">
@@ -50,7 +56,9 @@
             ¡Te invito a conocer más de mi descargando mi curriculum y explorando más esta página!
         </p>
 
-        <a class="button_Curriculum" href="./Curriculum_Varinea.pdf">Curriculum</a>
+        <a class="button_Curriculum" href="./curriculum/Curriculum_Varinea.pdf" target="_blank">Curriculum</a>
+
+        <!-- PROYECTOS -->
 
         <img class="proyectos_img" src="./img/proyectos_2.png" alt="Sección Proyectos"></img>
 
@@ -62,8 +70,22 @@
             la debilidad del Pokémon de tu contrincante hasta las fortalezas de tu Pokémon favorito.
             <span class="conocela"> ¡Conocela! </span> </p>
         <img class="pokepedia_iphone" src="./img/iphone_poke.png" alt=" Pokepedia App"></img>
-        <a class="button_code" href="https://varinea.github.io/SCL012-data-lovers/src/index.html">Demo</a>
-        <a class="button_demo" href="https://github.com/varinea/SCL012-data-lovers">Code</a>
+        <a class="button_code" href="https://varinea.github.io/SCL012-data-lovers/src/index.html" target="_blank">Demo</a>
+        <a class="button_demo" href="https://github.com/varinea/SCL012-data-lovers" target="_blank">Code</a>
+
+
+
+
+        <img class="movie_title" src="./img/goMovies.png" alt=" Movie Go App"></img>
+        <p class="movieModal">App basada en el famoso juego virtual Pokémon Go, esta entretenida eh intuitiva
+            aplicación esta creada para jugadores experimentados en Pokémon GO.
+
+            Puedes encontrar todo lo necesario para hacer más agradable tu aventura en Pokémon Go, podrás buscar desde
+            la debilidad del Pokémon de tu contrincante hasta las fortalezas de tu Pokémon favorito.
+            <span class="conocelaDos"> ¡Conocela! </span> </p>
+        <img class="movie_iphone" src="./img/iphone_movie.png" alt=" movie App"></img>
+        <a class="button_codeMovie" href="https://varinea.github.io/SCL012-data-lovers/src/index.html" target="_blank">Demo</a>
+        <a class="button_demoMovie" href="https://github.com/varinea/SCL012-data-lovers" target="_blank">Code</a>
 
 
         <img class="tecnologia_img" src="./img/tecnologias_2.png" alt="Sección Tecnologia"></img>
@@ -92,9 +114,19 @@
             <p class="icons_text10">TRELLO</p>
         </div>
     </div>
-    <img class="v_img" src="./img/v.png"></img>
-    <div class="pink_footer"></div>
-    
+    <!--
+    <img class="v_img" src="./img/v.png"></img> -->
+    <div class="pink_footer">
+     
+        <div class="iconify">
+
+            <a href="www.linkedin.com/in/varinea-fernanda-l%C3%B3pez-garrido/" target="_blank" class="iconify" data-inline="false" data-icon="cib:linkedin"></a>
+            <span class="iconify" data-inline="false" data-icon="ant-design:github-filled"></span>
+            <span class="iconify" data-inline="true" data-icon="ic:outline-email" href="mailto:varinea.lopez@gmail.com"></span>
+        </div>
+        <p class="footerP">Página desarrollada y diseñada por <span class="laboratoria"> Varinea López Garrido </span></p>
+    </div>
+
 
 
     <script src="app.js"> </script>
