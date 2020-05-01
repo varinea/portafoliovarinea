@@ -1,15 +1,10 @@
+let vari = "varinea";
+console.log("vari");
 
 /* Demo purposes only */
-$(".home").mouseleave(
-  function () {
-    $(this).removeClass("home");
-  }
-);
-
-
-/* Demo purposes only */
-$(".home").mouseleave(
-  function () {
-    $(this).removeClass("home");
-  }
-); 
+$(".hover").mouseleave(
+    function () {
+      $(this).removeClass("hover");
+    }
+  );
+  
