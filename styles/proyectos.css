@@ -1,18 +1,15 @@
 .proyectos_img {
-    position: absolute;
     width: 40%;
     left: 0%;
     top: 1580px;
   }
   
   .pokepedia_title {
-    position: absolute;
     left: 0%;
     top: 530%;
   }
   
   .pokepediaModal {
-    position: absolute;
     width: 22%;
     left: 0%;
     top: 550%;
@@ -24,7 +21,6 @@
   }
   
   .conocela{
-    position: absolute;
     left: 0%;
     top: 115%;
   
@@ -34,7 +30,6 @@
   }
   
   .pokepedia_iphone {
-    position: absolute;
     left: 22%;
     top: 500%;
   }
@@ -64,7 +59,6 @@
     text-decoration: none;
     font-size: 20px;
     
-    position: absolute;
     width: 20%;
     height: 9%;
     left: 5px;
@@ -80,13 +74,11 @@
   }
   
   .movie_title {
-    position: absolute;
     left: 52%;
     top: 530%;
   }
   
   .movieModal {
-    position: absolute;
     width: 22%;
     left: 52%;
     top: 550%;
@@ -98,7 +90,6 @@
   }
   
   .conocelaDos{
-    position: absolute;
     left: 0%;
     top: 115%;
   
@@ -108,7 +99,6 @@
   }
   
   .movie_iphone {
-    position: absolute;
     left: 76%;
     top: 500%;
   }
@@ -137,8 +127,7 @@
     color: #ffffff;
     text-decoration: none;
     font-size: 20px;
-    
-    position: absolute;
+
     width: 20%;
     height: 10%;
     left: 52%;

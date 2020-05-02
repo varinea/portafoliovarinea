@@ -5,30 +5,17 @@
 
 
 .container{
-  
-  width: 1200px;
-  height: 344px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+  width: 80%;
+	height: 3em;
+	display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
- 
-/*header MENU*/
 
-.v_img {
-  width: 234px;
-  height: 269px;
-  left: 1528px;
-  top: 690px;
-}
 
 body {
   background-image: url("../img/fondo_espacial.png");
   background-attachment: fixed;
   background-size: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
 }

@@ -1,36 +1,11 @@
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.myLogo {
-  position: absolute;
-  width: 90%;
-  height: 260px;
-  top: 283px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hola_img {
-  position: absolute;
-  top: 250%;
-  left:-3%;
-  display: flex;
-}
-
-
 .snip1502 {
   font-family: "Josefin Sans";
   text-align: center;
   text-transform: uppercase;
   font-weight: 400;
+  display: inline-flex;
+  justify-content: center;
+  
 }
 
 .snip1502 *,

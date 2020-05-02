@@ -1,67 +1,55 @@
 .tecnologia_img {
-    position: absolute;
     width: 45%;
     left: 0%;
     top: 2500px;
   }
   
 .icons{
-    position: absolute;
     width: 69%;
     height: 219%;
   }
   
   .icons_img1 {
-    position: absolute;
     left: 3%;
     top: 390%;
   }
   .icons_img2 {
-    position: absolute;
     left: 23%;
     top: 390%;
   }
   .icons_img3 {
-    position: absolute;
     left: 43%;
     top: 390%;
   }
 
   .icons_img4 {
-    position: absolute;
     left: 63%;
     top: 390%;
   }
 
   .icons_img5 {
-    position: absolute;
     left: 83%;
     top: 390%;
   }
 
   .icons_img6 {
-    position: absolute;
     left: 3%;
     top: 425%;
   }
   
   .icons_img7 {
-    position: absolute;
     left: 23%;
     top: 425%;
   }
   .icons_img8 {
-    position: absolute;
     left: 43%;
     top: 425%;
   }
   .icons_img9 {
-    position: absolute;
     left: 63%;
     top: 425%;
   }
   .icons_img10 {
-    position: absolute;
     left: 83%;
     top: 425%;
   }
@@ -72,7 +60,6 @@
 
   
   .icons_text1 {
-    position: absolute;
     width: 75px;
     height: 25px;
     left: 4%;
@@ -89,7 +76,6 @@
   
   
   .icons_text2 {
-    position: absolute;
     width: 75px;
     height: 25px;
     left: 25%;
@@ -105,7 +91,6 @@
   }
   
   .icons_text3 {
-    position: absolute;
     width: 75px;
     height: 25px;
     left: 40%;
@@ -121,7 +106,6 @@
   }
   
   .icons_text4 {
-    position: absolute;
     width: 75px;
     height: 25px;
     left: 64%;
@@ -137,7 +121,6 @@
   }
 
   .icons_text5 {
-    position: absolute;
     width: 75px;
     height: 25px;
     left: 80%;
@@ -153,7 +136,6 @@
   }
 
   .icons_text6 {
-    position: absolute;
     width: 75px;
     height: 25px;
     left: 2%;
@@ -169,7 +151,6 @@
   }
   
   .icons_text7 {
-    position: absolute;
     width: 75px;
     height: 25px;
     left: 25%;
@@ -185,7 +166,6 @@
   }
   
   .icons_text8 {
-    position: absolute;
     width: 75px;
     height: 25px;
     left: 43%;
@@ -201,7 +181,7 @@
   }
   
   .icons_text9 {
-    position: absolute;
+
     width: 75px;
     height: 25px;
     left: 64%;
@@ -217,7 +197,6 @@
   }
   
   .icons_text10 {
-    position: absolute;
     width: 75px;
     height: 25px;
     left: 83%;
