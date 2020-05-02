@@ -3,19 +3,30 @@
 
 /*FONDO NEBULOSA*/
 
-
-.container{
-  width: 80%;
-	height: 3em;
-	display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-}
-
-
 body {
   background-image: url("../img/fondo_espacial.png");
   background-attachment: fixed;
   background-size: 100%;
-
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
 }
+
+.container{
+  width: 80%;
+	/* height: 3em; */
+	display: flex;
+  flex-direction: column;
+  /* flex-wrap: nowrap; */
+  /* align-content: space-between; */
+  /* float: center; */
+  /* flex-flow: wrap; */
+  /* align-content: center; */
+  /* align-items: center; */
+}
+
+.allContent{
+/* margin: auto; */
+}
+
+

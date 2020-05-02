@@ -1,18 +1,18 @@
 .proyectos_img {
     width: 40%;
     left: 0%;
-    top: 1580px;
+   
   }
   
   .pokepedia_title {
     left: 0%;
-    top: 530%;
+   
   }
   
   .pokepediaModal {
     width: 22%;
     left: 0%;
-    top: 550%;
+ 
 
     font-family: "Josefin Sans";
     font-size: 14px;
@@ -22,7 +22,7 @@
   
   .conocela{
     left: 0%;
-    top: 115%;
+ 
   
     font-style: italic;
     font-weight: bolder;
@@ -31,7 +31,7 @@
   
   .pokepedia_iphone {
     left: 22%;
-    top: 500%;
+  
   }
   
   .button_code { 
@@ -39,11 +39,10 @@
     text-decoration: none;
     font-size: 20px;
     
-    position: absolute;
     width: 20%;
     height: 10%;
     left: 5px;
-    top: 640%;
+ 
     
     border-radius: 5px;
     text-transform: uppercase;
@@ -62,7 +61,6 @@
     width: 20%;
     height: 9%;
     left: 5px;
-    top: 655%;
     
     border-radius: 5px;
     text-transform: uppercase;
@@ -75,13 +73,11 @@
   
   .movie_title {
     left: 52%;
-    top: 530%;
   }
   
   .movieModal {
     width: 22%;
     left: 52%;
-    top: 550%;
     
     font-family: "Josefin Sans";
     font-size: 14px;
@@ -91,7 +87,6 @@
   
   .conocelaDos{
     left: 0%;
-    top: 115%;
   
     font-style: italic;
     font-weight: bolder;
@@ -100,7 +95,7 @@
   
   .movie_iphone {
     left: 76%;
-    top: 500%;
+   
   }
   
   .button_codeMovie { 
@@ -108,11 +103,10 @@
     text-decoration: none;
     font-size: 20px;
     
-    position: absolute;
+   
     width: 20%;
     height: 10%;
     left: 52%;
-    top: 640%;
     
     border-radius: 5px;
     text-transform: uppercase;
@@ -131,8 +125,7 @@
     width: 20%;
     height: 10%;
     left: 52%;
-    top: 655%;
-    
+
     border-radius: 5px;
     text-transform: uppercase;
     border: 2px solid #F30083;

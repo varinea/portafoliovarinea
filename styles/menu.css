@@ -3,8 +3,9 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: 400;
-  display: inline-flex;
-  justify-content: center;
+  overflow-y: auto;
+  /* display: inline-flex;
+  justify-content: center; */
   
 }
 
@@ -33,7 +34,7 @@
   text-decoration: none;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  background-color: #667273;
+  background-color: #44a6b4;
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
