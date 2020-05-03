@@ -6,7 +6,8 @@
 body {
   background-image: url("../img/fondo_espacial.png");
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: cover;
+  
   display: flex;
   justify-content: space-around;
   flex-flow: wrap;
