@@ -1,3 +1,9 @@
+.header {
+  position: fixed;
+  background-color: black;
+  width: 80%;
+  margin: -1% 0% 0% 0%;
+}
 .snip1502 {
   font-family: "Josefin Sans";
   text-align: center;
