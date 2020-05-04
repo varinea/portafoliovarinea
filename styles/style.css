@@ -1,5 +1,10 @@
 @import url(http://allfont.es/allfont.css?fonts=josefin-sans);
 @import url(http://allfont.es/allfont.css?fonts=josefin-sans-bolder);
+  
+* {
+	margin: 0;
+	padding: 0;
+}
 
 /*FONDO NEBULOSA*/
 
@@ -7,33 +12,34 @@ body {
   background-image: url("../img/fondo_espacial.png");
   background-attachment: fixed;
   background-size: cover;
-  
+  font-family: "Josefin Sans";
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-flow: wrap;
+  overflow-y: auto;
 }
 
 .container{
-  width: 80%;
-	/* height: 3em; */
+  width: 90%;
+  max-width: 1200px;
+  /* margin: auto; */
+  /* Flex elemento MADRE */
 	display: flex;
-  flex-direction: column;
-  /* flex-wrap: nowrap; */
-  /* align-content: space-between; */
-  /* float: center; */
-  /* flex-flow: wrap; */
-  /* align-content: center; */
-  /* align-items: center; */
+  /* flex-direction: row;
+  flex-wrap: wrap; 
+  Esto, comentado es lo mismo q flex-flow, solo q flex-flow e suna abreviación de código*/
+  flex-flow:row wrap;
+  overflow-y: auto;
 }
 
-/* .allContent{
-margin: auto; 
-} */
-
-.contTwo {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.item {
+  padding: 10px;
 }
 
+img {
+  width: auto;
+  height: auto;
+  display: block;
+  overflow-y: auto;
+}
 

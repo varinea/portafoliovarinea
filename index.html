@@ -2,8 +2,11 @@
 <html lang="esp">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" media="only screen and (max-width: 768px)" />
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="prefix.js"></script>
+
     <meta name="description" content="Portafolio Front-End Developer de Varinea López Garrido">
     <meta name="keywords" content="HTML,CSS,JavaScript,Front-end Developer, Varinea Lopez Garrido">
     <meta name="author" content="Varinea Lopez Garrido">
@@ -12,12 +15,12 @@
     <title>Portafolio</title>
     <!-- Enlaces CSS -->
     <link rel="stylesheet" type="text/css" href="./styles/style.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/menu.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/section.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/header.css" />
     <link rel="stylesheet" type="text/css" href="./styles/presentacion.css" />
     <link rel="stylesheet" type="text/css" href="./styles/proyectos.css" />
     <link rel="stylesheet" type="text/css" href="./styles/tecnologias.css" />
     <link rel="stylesheet" type="text/css" href="./styles/footer.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/responsibe.css" />
     <!-- Enlaces fuente -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,500,600,700,700i&display=swap"
         rel="stylesheet">
@@ -27,23 +30,21 @@
 </head>
 
 <body>
+    <ul class="snip1502">
+        <li class="current"><a href="#" data-hover="Home">Home</a></li>
+        <li><a href="#" data-hover="Sobre Mí">Sobre Mí</a></li>
+        <li><a href="#" data-hover="Proyectos">Proyectos</a></li>
+        <li><a href="#" data-hover="Tecnologías">Tecnologías</a></li>
+        <li><a href="#" data-hover="Contacto">Contacto</a></li>
+    </ul>
 
     <div class="container">
-        <header id="header" class="header">
-            <ul class="snip1502">
-                <li class="current"><a href="#" data-hover="Home">Home</a></li>
-                <li><a href="#" data-hover="Sobre Mí">Sobre Mí</a></li>
-                <li><a href="#" data-hover="Proyectos">Proyectos</a></li>
-                <li><a href="#" data-hover="Tecnologías">Tecnologías</a></li>
-                <li><a href="#" data-hover="Contacto">Contacto</a></li>
-            </ul>
+        <header>
+        <img class="myLogo" src="./img/logo.png" alt="Hola Soy Varinea López, front end developer y diseñadora gráfica"></img>
         </header>
-        <section class="allContent">
-            <article class="myLogo">
-                <img src="./img/logo.png" alt="Hola Soy Varinea López, front end developer y diseñadora gráfica"></img>
-            </article>
+        <section>
 
-            <article class="contOne">
+          
                 <img class="hola_img" src="./img/hola.png" alt="Hola, Soy Varinea López"></img>
                 <p class="quienSoy">
                     <span class="pinkText">Soy</span> Varinea López Garrido, me dicen Vari, me desempeño como <span
@@ -61,12 +62,53 @@
                     ¡Te invito a conocer más de mi descargando mi curriculum y explorando más en esta página!
                 </p>
                 <a class="button_Curriculum" href="./curriculum/Curriculum_Varinea.pdf" target="_blank">Curriculum</a>
-            </article>
+                <img class="proyectos_img" src="./img/proyectos_2.png" alt="Sección Proyectos"></img>
         </section>
 
-        <section class="allContentTwo">
+        <section>
+            <article>
+               
+                <div class="proyectsModal">
+                    <div class="flexbox-item">
+                        <img class="titleProyect" src="./img/pokepedia.png" alt=" Pokepedia App"></img>
+                        <p class="textOne">App basada en el famoso juego virtual Pokémon Go, esta entretenida eh
+                            intuitiva aplicación esta creada para jugadores experimentados en Pokémon GO. 
+                            Puedes encontrar todo lo necesario para hacer más agradable tu aventura en Pokémon Go,
+                            podrás buscar
+                            desde la debilidad del Pokémon de tu contrincante hasta las fortalezas de tu Pokémon
+                            favorito.</p>
+                            <span class="textTwo"> ¡Conocela! </span>
+                        
+                    
+                       <a class="button_code" href="https://varinea.github.io/SCL012-data-lovers/src/index.html"
+                        target="_blank">Demo</a>
+                       <a class="button_demo" href="https://github.com/varinea/SCL012-data-lovers" target="_blank">Code</a>
+                       <img class="iphone" src="./img/iphone_poke.png" alt=" Pokepedia App"></img>
+                    </div>
+                
+
+                 <div class="flexbox-item"> 
+                    <img class="titleProyect" src="./img/goMovies.png" alt=" Movie Go App"></img>
+                    <p class="textOne">App basada en el famoso juego virtual Pokémon Go, esta entretenida eh
+                        intuitiva
+                        aplicación esta creada para jugadores experimentados en Pokémon GO.
+                        Puedes encontrar todo lo necesario para hacer más agradable tu aventura en Pokémon Go, podrás
+                        buscar
+                        desde la debilidad del Pokémon de tu contrincante hasta las fortalezas de tu Pokémon favorito. </p>
+                        <span class="textTwo"> ¡Conocela! </span> 
+                   
+                    <a class="button_code" href="https://varinea.github.io/proyecto-peliculas/src/index.html"
+                        target="_blank">Demo</a>
+                    <a class="button_demo" href="https://github.com/varinea/proyecto-peliculas"
+                        target="_blank">Code</a>
+                        <img class="iphone_Two" src="./img/iphone_movie.png" alt=" movie App"></img>
+                 </div>
+                
+              </div>
+            </article>
+
+<!-- 
             <article class="contTwo">
-                <img class="proyectos_img" src="./img/proyectos_2.png" alt="Sección Proyectos"></img>
                 <div class="proyectsModal">
                     <div class="flexbox-item">
                         <img class="titleProyect" src="./img/pokepedia.png" alt=" Pokepedia App"></img>
@@ -96,9 +138,9 @@
                         desde la debilidad del Pokémon de tu contrincante hasta las fortalezas de tu Pokémon favorito. </p>
                         <span class="textTwo"> ¡Conocela! </span> 
                    
-                    <a class="button_code" href="https://varinea.github.io/SCL012-data-lovers/src/index.html"
+                    <a class="button_code" href="https://varinea.github.io/proyecto-peliculas/src/index.html"
                         target="_blank">Demo</a>
-                    <a class="button_demo" href="https://github.com/varinea/SCL012-data-lovers"
+                    <a class="button_demo" href="https://github.com/varinea/proyecto-peliculas"
                         target="_blank">Code</a>
                 </div>
                 <img class="iphone" src="./img/iphone_movie.png" alt=" movie App"></img>
@@ -130,7 +172,7 @@
                     <p class="icons_text10">TRELLO</p> -->
                 </div>
             </article>
-</section>
+        </section>
             <footer>
                 <div class="pink_footer">
 
@@ -145,7 +187,7 @@
                             Garrido</span>
                     </p>
                 </div>
-            </footer>
+            </footer> -->
 
             <script src="app.js"> </script>
 

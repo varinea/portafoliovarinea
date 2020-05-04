@@ -1,4 +1,9 @@
-.proyectsModal{
+article {
+  display: flex;
+  flex-direction: column 2;
+}
+
+.proyectsModal {
   display: flex;
   flex-direction: row;
   padding: 0% 0% 15% 0%;
@@ -6,75 +11,79 @@
 
 .proyectos_img {
   width: 40%;
-  height: 0%;
-  padding: 0% 0% 10%;
-   
-  }
+}
 
 .flexbox-item {
-  display: flex;
   flex-direction: column;
-  /* width: 100%; */
 }
-  
-  .titleProyect {
-    display: flex;
-    width: 70%;
-    padding: 25% 0% 6% 0%;
-  }
-  
-  .textOne {
-    width: 95%;
-    font-family: "Josefin Sans";
-    /* font-style: italic; */
-    font-size: 18px;
-    text-align: left;
-    color: #FFFFFF;
-    line-height : 25px;
-    /* padding: 0% 0% 20% 0%; */
-  }
 
-  .textTwo{
-    font-family: "Josefin Sans";
-    font-size: 25px;
-    font-style: italic;
-    font-weight: bolder;
+.titleProyect {
+  padding: 25% 0% 6% 0%;
+}
 
-    width: 95%;
-    text-align: left;
-    color: yellow;
-    padding: 0% 0% 20% 0%;
-  }
-  
-  .button_code { 
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 20px;
-    height: 5%;
+.textOne {
+  width: 50%;
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-size: 20px;
+  text-align: left;
+  color: #FFFFFF;
+  line-height: 21px;
+  padding: 0% 0% 5% 0%;
+}
 
-    border-radius: 5px;
-    text-transform: uppercase;
-    border: 2px solid #F30083;
-    font-family: "Josefin Sans";
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0% 0% 5% 0%;
-    }
+.textTwo {
+  font-family: "Josefin Sans";
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bolder;
 
-  .button_demo { 
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 20px;
-    
-    width: 99%;
-    height: 5%;
-    border-radius: 5px;
-    text-transform: uppercase;
-    border: 2px solid #F30083;
-    font-family: "Josefin Sans";
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
+  color: yellow;
+}
+
+ .button_code {
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 25px;
+
+  width: 250px;
+  height: 30px;
+
+  border: 3px solid #F30083;
+  font-family: "Josefin Sans";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0% 2% 0% 2%;
+  margin: 2% 0% 0% 0%;
+}
+
+ .button_demo {
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 25px;
+
+  width: 250px;
+  height: 30px;
+
+  border: 3px solid #F30083;
+  font-family: "Josefin Sans";
+  display: flex;
+  padding: 0% 2% 0% 2%;
+  margin: 2% 0% 0% 0%;
+}
+
+.iphone {
+  width: 45%;
+  margin: -85% 0% 0% 51%;
+}
+
+.iphone_Two {
+  width: 45%;
+  margin: -85% 0% 0% 53%;
+}

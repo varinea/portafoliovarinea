@@ -1,0 +1,81 @@
+
+/* @media (max-width: 1020px) {
+  body {
+    background-color: black;
+    background-image: none;
+  }
+
+}; */
+
+/* @media screen and (max-width: 700px) {
+  body {
+    background-color: black;
+    background-image: none;
+  }
+
+}; */
+
+
+@media (max-width: 360px) {
+  body {
+    background-color: black;
+    background-image: none;
+  }
+
+  .container{
+    width: 90%;
+    max-width: 1000px;
+
+    display: flex;
+    flex-flow:row wrap;
+    overflow-y: auto;
+  }
+
+  header .myLogo {
+    visibility: hidden;
+  }
+  .container .hola_img {
+    padding: 0% 0% 20% 0%;
+    width: 50%;
+  }
+  .container .quienSoy {
+    font-family: "Josefin Sans";
+    font-style: italic;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: left;
+    color: white;
+    padding: 0% 0% 5% 0%;
+  }
+
+  .button_Curriculum {
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0% 15% 24%;
+  } 
+  .proyectos_img {
+    /* padding: 0% 0% 20% 0%; */
+    width: 90%;
+  }
+
+  .proyectsModal {
+    flex-direction: column;
+  }
+
+  .textOne {
+    width: 90%;
+    font-family: "Josefin Sans";
+    font-style: italic;
+    font-size: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    line-height: 21px;
+    padding: 0% 0% 12% 0%;
+  }
+  .iphone  {
+    margin: 0% 0% 0% 0%;
+  }
+  .iphone_Two  {
+    margin: 0% 0% 0% 0%;
+  }
+};
