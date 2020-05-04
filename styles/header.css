@@ -5,6 +5,7 @@
   text-transform: uppercase;
   font-weight: 400;
   overflow-y: auto;
+  background-color: black;
 }
 
 .snip1502 *,
@@ -72,7 +73,6 @@
 header {
   width: 100%;
   padding: 20px;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,8 +81,6 @@ header {
 }
 
 header .myLogo {
-
   overflow-y: auto;
   margin: 20% 0% 20% 13%;
-
 }
