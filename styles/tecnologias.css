@@ -1,11 +1,12 @@
 .tecnologia_img {
-  width: 45%;
-  padding: 0% 0% 10% 0%;
+  /* width: 45%; */
+  padding: 0% 0% 20% 0%;
 }
 
 .icons {
+  padding: 0% 0% 20% 40%;
+  width: 80%;
+  justify-content: space-between;
   display: flex;
-  justify-content: space-around;
-  padding: 0% 0% 10% 25%;
-  width: 50%;
+  height: 13%;
 }

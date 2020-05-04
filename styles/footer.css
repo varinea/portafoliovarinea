@@ -1,4 +1,14 @@
+footer {
+  background-color: black;
+  width: 100%;
+  padding: 20px;
 
+  /* Flex */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+  
   .iconify {
     height: 70%;
     width: 24%;
@@ -18,10 +28,9 @@
 
  .pink_footer {
   width: 100%;
-  top: 435%;
+  /* top: 435%; */
   text-align: center;
   display: grid;
-
   color: ivory;
-  background: black;
+
 }
