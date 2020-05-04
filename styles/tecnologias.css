@@ -1,12 +1,15 @@
+
 .tecnologia_img {
   /* width: 45%; */
-  padding: 0% 0% 20% 0%;
+  padding: 0% 0% 5% 0%;
 }
 
 .icons {
-  padding: 0% 0% 20% 40%;
-  width: 80%;
-  justify-content: space-between;
   display: flex;
-  height: 13%;
+  padding: 10%;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
 }
+}
+
