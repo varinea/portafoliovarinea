@@ -34,6 +34,10 @@ body {
 			height: 100px;
 			/* align-items: center; */
 		}
+		
+		.iphone {
+			width: 25rem;
+		}
 	
 		.img-principal{
 				/* background: #f07b3f; */
@@ -131,6 +135,7 @@ body {
 	/* padding: 2% 10%;
 	margin: 2% 0% 0% 0%; */
   }
+  
 
 		
 	.section{
@@ -160,11 +165,18 @@ body {
 		/* background: #000; */
 		display: flex;
 		justify-content: center;
+		color: ivory;
+		background: black;
+		width: 100%;
+		
 	}
-		.pie{
-			/* background: #e6af2e; */
-			width: 300px;
-		}
+	.pink_footer {
+		
+		color: ivory;
+		
+	  }
+		
+
 @media all and (max-width: 800px){
 	.section{
 		flex-direction: column;
