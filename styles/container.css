@@ -8,7 +8,8 @@ body {
 	background-size: cover;
 	font-family: "Josefin Sans";
 	background-repeat: no-repeat;
-    background-attachment: fixed
+	background-attachment: fixed;
+	background-color: black;
   }
  
 *{
@@ -165,14 +166,13 @@ body {
 			 width: 100%;
 		 }
 
-		
 	.footer{
 		/* background: #000; */
-	width: 100%;
+		display: flex;
+		justify-content: center;
 		color: ivory;
 		/* background: black; */
-		
-		
+		text-align: center;		
 	}
 
 
@@ -226,6 +226,8 @@ body {
 @media all and (max-width: 400px){
 	.aside{
 		flex-direction: column;
-		justify-content: left;
+		justify-content: center;
+		background-color: black;
+		background-image: none;
 	}
 }
