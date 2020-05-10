@@ -7,13 +7,14 @@ body {
 	background-attachment: fixed;
 	background-size: cover;
 	font-family: "Josefin Sans";
+	background-repeat: no-repeat;
+    background-attachment: fixed
   }
-
+ 
 *{
 	margin:10px;
 	padding: 10px;
 	box-sizing: border-box;
-	/* text-align: center; */
 }
 .fatherFlex{
 	display: flex;
@@ -36,13 +37,13 @@ body {
 		}
 		
 		.iphone {
-			width: 25rem;
+			width: 20rem;
 		}
 	
 		.img-principal{
-				/* background: #f07b3f; */
+				display: flex;
 				justify-content: center;
-				align-items: center;
+				
 			}
 		.texto-principal{
 			/* background: #f07b3f; */
@@ -135,9 +136,7 @@ body {
 	/* padding: 2% 10%;
 	margin: 2% 0% 0% 0%; */
   }
-  
-
-		
+	
 	.section{
 		/* background: #000; */
 		display: flex;
@@ -167,17 +166,21 @@ body {
 		justify-content: center;
 		color: ivory;
 		background: black;
-		width: 100%;
+		
 		
 	}
 	.pink_footer {
-		
+		background-color: black;
 		color: ivory;
-		
+		text-align: center;	
 	  }
-		
+
 
 @media all and (max-width: 800px){
+	.fatherFlex {
+		display: flex;
+		justify-content: center;
+	}
 	.section{
 		flex-direction: column;
 	}
@@ -191,12 +194,22 @@ body {
 	}
 }
 @media all and (max-width: 600px){
+	.fatherFlex {
+		display: flex;
+		justify-content: center;
+	}
 	.articulos{
 		flex-direction: column;
+		justify-content: center;
 	}
 }
 @media all and (max-width: 400px){
+	.fatherFlex {
+		display: flex;
+		justify-content: center;
+	}
 	.aside{
 		flex-direction: column;
+		justify-content: center;
 	}
 }

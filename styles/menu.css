@@ -1,49 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
 
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-}
-
-body {
-	font-family: 'Saira Extra Condensed', sans-serif;
-	letter-spacing: 1px;
-	-webkit-font-smoothing: antialiased;
-     -moz-osx-font-smoothing: grayscale;
-}
-
 .container {
-	display: flex;
-	flex-direction: column;
-	/* min-height: 100vh; */
-
-}
-
-header {
 	/* background-image: linear-gradient(to bottom,  rgba(0,0,0,0.75) -10%,rgba(0,0,0,0) 100%); */
-	text-align: center;
-	padding: 0.5rem 0 5rem;
+	text-align: left;
 	font-size: 1.25rem;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	letter-spacing: 2px;
+
+	margin-left: -3px;
+	top: 0;
+	position: fixed;
 }
 
 ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+	display: flex;
+	flex-direction: column;
+	color: mintcream;
+	/* background-image: linear-gradient(to bottom,  rgba(0,0,0,0.75) -10%,rgba(0,0,0,0) 100%); */
 }
 
-li {
+/* li {
 	display: inline-flex;
-}
+} */
 
 a {
-	position: relative;
-	padding: 1rem 0 0.5rem;
-	margin: 0 1.5rem;
-	color: white;
-	text-decoration: none;
-	text-transform: uppercase;
-		
+  position: relative;		
 	}
 	

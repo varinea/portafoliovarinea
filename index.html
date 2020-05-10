@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="esp">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport"
@@ -23,24 +22,43 @@
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,500,600,700,700i&display=swap"
 		rel="stylesheet">
 
-	<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
-	<script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+
+	<!-- <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script> -->
+	<!-- <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script> -->
+
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
 </head>
 
 <body>
+  
+
 	<div class="container">
-		<header>
 			<nav>
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#hello">Sobre mí</a></li>
-					<li><a href="#proyect">Proyectos</a></li>
-					<li><a href="#">Contacto</a></li>
+					<a href="#">Home</a>
+					<a href="#hello">Sobre mí</a>
+					<a href="#proyect">Proyectos</a>
+					<a href="#contact">Contacto</a>
 				</ul>
 			</nav>
-		</header>
-	</div>
+	</div> 
 
+
+
+
+
+
+
+
+
+
+	
 	<div class="fatherFlex">
 		<header class="header">
 			<div class="img-principal">
@@ -122,9 +140,10 @@
 
 		<section class="section">
 			<aside class="aside">
-				<img id="proyect" class="proyectos_img" src="./img/tecnologias_2.png" alt="Sección Proyectos"></img>
+
 
 				<div class="publicidad">
+					<img id="proyect" class="proyectos_img" src="./img/tecnologias_2.png" alt="Sección Proyectos"></img>
 					<img class="icons_img1" src="./img/iconos/1.png" alt="HTML"></img>
 					<img class="icons_img2" src="./img/iconos/2.png" alt="CSS"></img>
 					<img class="icons_img3" src="./img/iconos/3.png" alt="Javascript"></img>
@@ -138,19 +157,19 @@
 				</div>
 			</aside>
 		</section>
-
-
-		<footer class="footer">
-			<nav class="pie"></nav>
-			<img class="icons_img1" src="./img/iconos/github.png" alt="github"></img>
-			<img class="icons_img1" src="./img/iconos/laboratoria.png" alt="Laboratoria"></img>
-			<img class="icons_img1" src="./img/iconos/linkedin.png" alt="Linkedin"></img>
-			<img class="icons_img1" src="./img/iconos/msn.png" alt="msn"></img>
-
-			<p class="footerP">Página desarrollada y diseñada por <span class="laboratoria"> Varinea López
+		<footer id="contact" class="footer">
+			<nav class="pie">
+				<a href="https://github.com/varinea"  target="_blank"><img src="./img/iconos/github.png" alt="github"></a>
+				<a href=""  target="_blank"><img src="./img/iconos/laboratoria.png" alt="Laboratoria"></a>
+				<a href="https://www.linkedin.com/in/varinea-fernanda-l%C3%B3pez-garrido/"  target="_blank"><img src="./img/iconos/linkedin.png" alt="Linkedin"></a>
+				<a href="mailto:varinea.lopez@gmail.com" target="_blank"> <img src="./img/iconos/msn.png" alt="gmail"></a>	
+				<p class="footerP">Página desarrollada y diseñada por <span class="laboratoria"> Varinea López
 					Garrido</span>
+			</nav>
+			
 		</footer>
 	</div>
+
 	<script src="app.js"> </script>
 </body>
 
