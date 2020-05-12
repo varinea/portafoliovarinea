@@ -1,6 +1,6 @@
 @import url(http://allfont.es/allfont.css?fonts=josefin-sans);
 @import url(http://allfont.es/allfont.css?fonts=josefin-sans-bolder);
-  
+
 
 body {
 	background-image: url("../img/fondo_espacial.png");
@@ -10,100 +10,79 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-color: black;
-  }
- 
-*{
-	margin:10px;
+}
+
+* {
+	margin: 10px;
 	padding: 10px;
 	box-sizing: border-box;
 }
-.fatherFlex{
+
+.fatherFlex {
 	display: flex;
-    flex-flow: column nowrap;
-    width: 90%;
-    max-width: 1100px;
-    margin: auto;
+	flex-flow: column nowrap;
+	width: 90%;
+	max-width: 1100px;
+	margin: auto;
 }
-	.header{
-		display: flex;
-		flex-flow: column nowrap;
-		justify-content: center;
-	}
-		.menu{
-			display: flex;
-			flex-flow: row nowrap;
-			height: 100px;
-		}
-		
-		.iphone {
-			width: 20rem;
-		}
-	
-		.img-principal{
-				display: flex;
-				justify-content: center;
-				
-			}
-		.texto-principal{
 
-			display: grid;
-			font-family: "Josefin Sans";
-			font-style: normal;
-			font-size: 20px;
-			line-height: 150%;
-			text-align: left;
-			color: white;
-        }
-        .textTwo {
-            font-family: "Josefin Sans";
-            font-size: 25px;
-            font-style: italic;
-            font-weight: bolder;
-          
-            color: yellow;
-          }
-		.pinkText {
-			font-family: 'Josefin Sans';
-			color: #F30083;
-			font-weight: 500;
-			font-size: 50px;
-		  }
-		  
-		  .laboratoria {
-			font-family: 'Josefin Sans', bold italic;
-			color: yellow;
-			text-size-adjust: 5em;
-			letter-spacing: -0.01em;
-		  }
+.header {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+}
 
-		  .button_Curriculum {
-			text-align: center;
-			color: #ffffff;
-			text-decoration: none;
-			border-radius: 5px;
-			font-size: 25px;
-			width: 250px;
-			height: 40px;
-			border: 3px solid #F30083;
-			font-family: "Josefin Sans";
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			/* padding: 0% 2% 0% 2%;
-			margin: 5% 0% 15% 40%; */
-		  } 
-		  .textOne {
-			width: 60%;
-			font-family: "Josefin Sans";
-			font-style: normal;
-			font-size: 18px;
-			text-align: left;
-			color: #FFFFFF;
-			line-height: 22px;
-			padding: 0% 0% 5% 0%;
-		  }
-		  
- .button_code {
+.menu {
+	display: flex;
+	flex-flow: row nowrap;
+	height: 100px;
+}
+
+.iphone {
+	width: 20rem;
+}
+
+.img-principal {
+	display: flex;
+	justify-content: center;
+
+}
+
+.texto-principal {
+
+	display: grid;
+	font-family: "Josefin Sans";
+	font-style: normal;
+	font-size: 20px;
+	line-height: 150%;
+	text-align: left;
+	color: white;
+}
+
+.textTwo {
+	font-family: "Josefin Sans";
+	font-size: 25px;
+	font-style: italic;
+	font-weight: bolder;
+	padding: 0% 0% 5% 0%;
+	color: yellow;
+}
+
+.pinkText {
+	font-family: 'Josefin Sans';
+	color: #F30083;
+	font-weight: 500;
+	font-size: 50px;
+}
+
+.laboratoria {
+	font-family: 'Josefin Sans', bold italic;
+	color: yellow;
+	text-size-adjust: 5em;
+	letter-spacing: -0.01em;
+}
+
+.button_Curriculum {
 	text-align: center;
 	color: #ffffff;
 	text-decoration: none;
@@ -116,9 +95,37 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-  }
-  
-   .button_demo {
+	/* padding: 0% 2% 0% 2%;
+			margin: 5% 0% 15% 40%; */
+}
+
+.textOne {
+	width: 60%;
+	font-family: "Josefin Sans";
+	font-style: normal;
+	font-size: 18px;
+	text-align: left;
+	color: #FFFFFF;
+	line-height: 22px;
+	padding: 0% 0% 5% 0%;
+}
+
+.button_code {
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 25px;
+	width: 250px;
+	height: 40px;
+	border: 3px solid #F30083;
+	font-family: "Josefin Sans";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button_demo {
 	text-align: center;
 	color: #ffffff;
 	text-decoration: none;
@@ -133,281 +140,374 @@ body {
 	justify-content: center;
 	/* padding: 2% 10%;
 	margin: 2% 0% 0% 0%; */
-  }
-	
-	.section{
-		/* background: #000; */
+}
+
+.section {
+	/* background: #000; */
+	display: flex;
+	justify-content: center;
+}
+
+.articulos {
+	/* background: #4e4e6a; */
+	flex: 2 1 auto;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.article {
+	/* background: #1f6cb0; */
+	flex: 1 1 40%;
+}
+
+.navegacion {
+	/* background: #70a3c4; */
+	flex: 1 1 100%;
+}
+
+.aside {
+	/* background: #f73f52; */
+	flex: 1 1 auto;
+}
+
+.proyect_img {
+	width: 100%;
+}
+
+.tech {
+	width: 100%;
+}
+
+.footer {
+	/* background: #000; */
+	display: flex;
+	justify-content: center;
+	color: ivory;
+	/* background: black; */
+	text-align: center;
+}
+
+
+
+
+@media all and (max-width: 1000px) {
+	.fatherFlex {
 		display: flex;
 		justify-content: center;
 	}
-		.articulos{
-			/* background: #4e4e6a; */
-			flex:2 1 auto;
-			display: flex;
-			flex-flow: row wrap;
-		}
-			.article{
-				/* background: #1f6cb0; */
-				flex:1 1 40%;
-			}
-			.navegacion{
-				/* background: #70a3c4; */
-				flex:1 1 100%;
-			}
-		.aside{
-			/* background: #f73f52; */
-			flex:1 1 auto;
-		}
 
-		.proyect_img{
-			width: 100%;
-		 }
-		 .tech {
-			 width: 100%;
-		 }
+	.section {
+		flex-direction: column;
+	}
 
-	.footer{
+	.menu {
+		flex-direction: column;
+		height: auto;
+	}
+
+	.aside {
+		display: flex;
+		justify-content: center;
+	}
+	
+	.pie {
+		display: flex;
+		text-align: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		flex-basis: -moz-available;
+		width: 100%;
+		justify-content: center;
+	}
+}
+
+@media all and (max-width: 1000px) {
+	.fatherFlex {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media all and (max-width: 800px) {
+	.fatherFlex {
+		display: flex;
+		justify-content: center;
+	}
+
+	.section {
+		flex-direction: column;
+	}
+
+	.menu {
+		flex-direction: column;
+		height: auto;
+	}
+
+	.aside {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media all and (max-width: 600px) {
+
+	.articulos {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.myLogo {
+		display: none;
+	}
+	
+	.pie {
+		display: flex;
+		text-align: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		flex-basis: -moz-available;
+		width: 100%;
+		justify-content: center;
+	}
+}
+
+@media all and (max-width: 400px) {
+	body {
+		background-image: none;
+
+	}
+
+	* {
+		margin: 5px;
+		padding: 5px;
+		box-sizing: border-box;
+	}
+
+	.fatherFlex {
+		display: flex;
+		flex-flow: column nowrap;
+		width: 100%;
+		/* max-width: 1000px; */
+		/* margin: auto; */
+		background-color: black;
+	}
+
+	.iphone {
+		width: 15rem;
+	}
+
+	.texto-principal {
+
+		/* display: grid;s */
+		font-family: "Josefin Sans";
+		font-style: normal;
+		font-size: 18px;
+		line-height: 140%;
+		text-align: justify;
+		color: white;
+	}
+
+	a {
+		display: flex;
+		justify-content: center;
+
+	}
+
+	.section {
+		/* background: #000; */
+		display: flex;
+		justify-content: center;
+		width: 90%;
+	}
+
+	.articulos {
+		/* background: #4e4e6a; */
+		flex: 2 1 auto;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
+
+	.article {
+		/* background: #1f6cb0; */
+		flex: 1 1 40%;
+	}
+
+	.navegacion {
+		/* background: #70a3c4; */
+		flex: 1 1 100%;
+	}
+
+	.aside {
+		/* background: #f73f52; */
+		flex: 1 1 auto;
+		padding: 15% 0% 15% 0%;
+	}
+
+	.textOne {
+		width: 80%;
+		font-family: "Josefin Sans";
+		font-style: oblique;
+		font-size: 17px;
+		text-align: left;
+		color: #FFFFFF;
+		line-height: 22px;
+		padding: 0% 0% 5% 0%;
+	}
+
+	.textTwo {
+		font-family: "Josefin Sans";
+		font-size: 25px;
+		font-style: italic;
+		font-weight: bolder;
+		padding: 0% 0% 5% 0%;
+		color: yellow;
+	}
+
+	.tech {
+		width: 90%;
+
+	}
+
+	.footer {
+		/* background: #000; */
+		display: flex;
+		/* justify-content: center; */
+		color: ivory;
+		/* background: black; */
+		width: 100%;
+	}
+
+	.pie {
+		display: flex;
+		text-align: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		flex-basis: -moz-available;
+		width: 100%;
+		justify-content: center;
+	}
+
+}
+
+@media all and (max-width: 300px) {
+	img {
+		width: 100%;
+	}
+
+	body {
+		background-image: none;
+		background-color: black;
+	}
+
+	* {
+		margin: 5px;
+		padding: 5px;
+		box-sizing: border-box;
+	}
+
+	.fatherFlex {
+		display: flex;
+		flex-flow: column nowrap;
+		width: 100%;
+		/* max-width: 1000px; */
+		/* margin: auto; */
+		background-color: black;
+	}
+
+	.iphone {
+		width: 15rem;
+	}
+
+	.texto-principal {
+
+		/* display: grid;s */
+		font-family: "Josefin Sans";
+		font-style: normal;
+		font-size: 14px;
+		line-height: 120%;
+		text-align: justify;
+		color: white;
+	}
+
+	a {
+		display: flex;
+		justify-content: center;
+
+	}
+
+	.section {
+		/* background: #000; */
+		display: flex;
+		justify-content: center;
+		width: 90%;
+	}
+
+	.articulos {
+		/* background: #4e4e6a; */
+		flex: 2 1 auto;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
+
+	.article {
+		/* background: #1f6cb0; */
+		flex: 1 1 40%;
+	}
+
+	.navegacion {
+		/* background: #70a3c4; */
+		flex: 1 1 100%;
+	}
+
+	.aside {
+		/* background: #f73f52; */
+		flex: 1 1 auto;
+		padding: 15% 0% 15% 0%;
+	}
+
+	.textTwo {
+		font-family: "Josefin Sans";
+		font-size: 25px;
+		font-style: italic;
+		font-weight: bolder;
+		padding: 0% 0% 5% 0%;
+		color: yellow;
+	}
+
+	.textOne {
+		width: 80%;
+		font-family: "Josefin Sans";
+		font-style: oblique;
+		font-size: 17px;
+		text-align: left;
+		color: #FFFFFF;
+		line-height: 22px;
+		padding: 0% 0% 5% 0%;
+	}
+
+	.tech {
+		width: 90%;
+
+	}
+
+	.footer {
 		/* background: #000; */
 		display: flex;
 		justify-content: center;
 		color: ivory;
 		/* background: black; */
-		text-align: center;		
-	}
-
-
-	  @media all and (max-width: 1000px){
-		.fatherFlex {
-			display: flex;
-			justify-content: center;
-		}
-		.section{
-			flex-direction: column;
-		}
-		.menu{
-			flex-direction: column;
-			height: auto;
-		}
-		.aside{
-			display: flex;
-			justify-content: center;
-		}
-	}
-	@media all and (max-width: 1000px){
-		.fatherFlex {
-			display: flex;
-			justify-content: center;
-		}
-	}
-
-@media all and (max-width: 800px){
-	.fatherFlex {
-		display: flex;
-		justify-content: center;
-	}
-	.section{
-		flex-direction: column;
-	}
-	.menu{
-		flex-direction: column;
-		height: auto;
-	}
-	.aside{
-		display: flex;
-		justify-content: center;
-	}
-}
-@media all and (max-width: 600px){
-
-	.articulos{
-		flex-direction: column;
-		justify-content: center;
-	}
-	.myLogo {
-		display: none;
-	}
-}
-@media all and (max-width: 400px){
-	body {
-		background-image: none;
-		background-color: bisque;
-	  }
-	 
-	*{
-		margin:5px;
-		padding: 5px;
-		box-sizing: border-box;
-	}
-	.fatherFlex{
-		display: flex;
-		flex-flow: column nowrap;
 		width: 100%;
-		/* max-width: 1000px; */
-		/* margin: auto; */
-		background-color: black;
 	}
-			.iphone {
-				width: 15rem;
-			}
-		
-			.texto-principal{
 
-				/* display: grid;s */
-				font-family: "Josefin Sans";
-				font-style: normal;
-				font-size: 14px;
-				line-height: 120%;
-				text-align: justify;
-				color: white;
-			}
-		
-	 a{
+	.pie {
 		display: flex;
-		justify-content: center;
-
-	 }
-		
-		.section{
-			/* background: #000; */
-			display: flex;
-			justify-content: center;
-			width: 90%;
-		}
-			.articulos{
-				/* background: #4e4e6a; */
-				flex:2 1 auto;
-				display: flex;
-				flex-flow: row wrap;
-				justify-content: space-between;
-			}
-				.article{
-					/* background: #1f6cb0; */
-					flex:1 1 40%;
-				}
-				.navegacion{
-					/* background: #70a3c4; */
-					flex:1 1 100%;
-				}
-			.aside{
-				/* background: #f73f52; */
-				flex:1 1 auto;
-				padding: 15% 0% 15% 0%;
-			}
-	
-			.textOne {
-				width: 80%;
-				font-family: "Josefin Sans";
-				font-style: oblique;
-				font-size: 17px;
-				text-align: left;
-				color: #FFFFFF;
-				line-height: 22px;
-				padding: 0% 0% 5% 0%;
-			}
-			 .tech {
-				 width: 90%;
-				 
-			 }
-	
-		.footer{
-			/* background: #000; */
-			display: flex;
-			justify-content: center;
-			color: ivory;
-			/* background: black; */
-			width: 100%;	
-		}
-}
-
-@media all and (max-width: 300px){
-
-	body {
-		background-image: none;
-		background-color: bisque;
-	  }
-	 
-	*{
-		margin:5px;
-		padding: 5px;
-		box-sizing: border-box;
-	}
-	.fatherFlex{
-		display: flex;
-		flex-flow: column nowrap;
+		text-align: left;
+		flex-direction: row;
+		flex-wrap: wrap;
+		flex-basis: -moz-available;
 		width: 100%;
-		/* max-width: 1000px; */
-		/* margin: auto; */
-		background-color: black;
-	}
-			.iphone {
-				width: 15rem;
-			}
-		
-			.texto-principal{
-
-				/* display: grid;s */
-				font-family: "Josefin Sans";
-				font-style: normal;
-				font-size: 14px;
-				line-height: 120%;
-				text-align: justify;
-				color: white;
-			}
-		
-	 a{
-		display: flex;
 		justify-content: center;
-
-	 }
-		
-		.section{
-			/* background: #000; */
-			display: flex;
-			justify-content: center;
-			width: 90%;
-		}
-			.articulos{
-				/* background: #4e4e6a; */
-				flex:2 1 auto;
-				display: flex;
-				flex-flow: row wrap;
-				justify-content: space-between;
-			}
-				.article{
-					/* background: #1f6cb0; */
-					flex:1 1 40%;
-				}
-				.navegacion{
-					/* background: #70a3c4; */
-					flex:1 1 100%;
-				}
-			.aside{
-				/* background: #f73f52; */
-				flex:1 1 auto;
-				padding: 15% 0% 15% 0%;
-			}
-	
-			.textOne {
-				width: 80%;
-				font-family: "Josefin Sans";
-				font-style: oblique;
-				font-size: 17px;
-				text-align: left;
-				color: #FFFFFF;
-				line-height: 22px;
-				padding: 0% 0% 5% 0%;
-			}
-			 .tech {
-				 width: 90%;
-				 
-			 }
-	
-		.footer{
-			/* background: #000; */
-			display: flex;
-			justify-content: center;
-			color: ivory;
-			/* background: black; */
-			width: 100%;	
-		}
+	}
 }
