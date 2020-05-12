@@ -204,6 +204,7 @@ body {
     align-items: normal;
 	justify-content: space-around;
 	padding: 0% 10% 15% 0%;
+	width: 100%;
 }
 
 .contactON {
@@ -214,7 +215,7 @@ body {
     align-items: normal;
 	justify-content: space-around;
 	text-align: center;
-justify-items: center;
+    justify-items: center;
 
 }
 
