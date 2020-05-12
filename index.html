@@ -18,18 +18,32 @@
 	<link rel="stylesheet" type="text/css" href="./styles/container.css">
 	<link rel="stylesheet" type="text/css" href="./styles/menu.css" />
 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<!-- Enlaces fuente -->
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,500,600,700,700i&display=swap"
 		rel="stylesheet">
 </head>
 
 <body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+		  <ul class="nav navbar-nav">
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="#me">Sobre Mí</a></li>
+			<li><a href="#proyect">Proyectos</a></li>
+			<li><a href="#tech">Contacto</a></li>
+		  </ul>
+		</div>
+	  </nav>	
+
 	<div class="fatherFlex">
 		<header class="header">
 			<div class="img-principal">
 				<img class="myLogo" src="./img/logo.png"alt="Hola Soy Varinea López, front end developer y diseñadora gráfica"></img>
 			</div>
-			<div class="texto-principal">
+			<div id="me" class="texto-principal">
 				<img id="hello" class="hola_img" src="./img/hola.png" alt="Hola, Soy Varinea López"></img>
 				<p class="quienSoy">
 					<span class="pinkText">Soy</span> Varinea López Garrido, me desempeño como
@@ -48,10 +62,10 @@
 					<br>
 					¡Te invito a conocer más de mi descargando mi curriculum y explorando más en esta página!
 				</p>
-				<a class="button_code" href="./curriculum/Curriculum_Varinea.pdf" target="_blank">Curriculum</a>
+				<a class="button_Curriculum" href="./curriculum/Curriculum_Varinea.pdf" target="_blank">Curriculum</a>
 			</div>
 		</header>
-		<aside class="aside">
+		<aside  class="aside">
 			<img id="proyect" class="proyectos_img" src="./img/proyectos_2.png" alt="Sección Proyectos"></img>
 		</aside>
 		<section class="section">
@@ -64,18 +78,17 @@
 				<article class="article">
 					<img class="titleProyect" src="./img/pokepedia.png" alt=" Pokepedia App"></img>
 					<p class="textOne">App basada en el famoso juego virtual Pokémon Go, esta entretenida eh
-						intuitiva aplicación esta creada para jugadores experimentados en Pokémon GO. <br>
+						intuitiva aplicación esta creada para jugadores experimentados en Pokémon GO. <br><br>
 						Puedes encontrar todo lo necesario para hacer más agradable tu aventura en Pokémon Go,
 						podrás buscar
 						desde la debilidad del Pokémon de tu contrincante hasta las fortalezas de tu Pokémon
-						favorito.</p><span class="textTwo"> ¡Conocela! </span>
+						favorito.</p><span class="textTwo"> ¡Conócela! </span>
 					<a class="button_code" href="https://varinea.github.io/SCL012-data-lovers/src/index.html"
 						target="_blank">Demo</a>
 					<a class="button_demo" href="https://github.com/varinea/SCL012-data-lovers" target="_blank">Code</a>
 				</article>
 			</div>
 		</section>
-
 
 		<section class="section">
 			<aside class="aside">
@@ -87,9 +100,9 @@
 				<article class="article">
 					<img class="titleProyect" src="./img/goMovies.png" alt=" Pokepedia App"></img>
 					<p class="textOne">Es una webapp que provee información sobre películas, principalmente del género
-						fantástico. Ademas de proveer acceso ilimitado a sus películas y series, entrega contenido extra
+						fantástico, además de proveer acceso ilimitado a sus películas y series, entrega contenido extra
 						sobre el mundo Fandom del cine de Ciencia ficción.
-						favorito.</p><span class="textTwo"> ¡Conócela! </span>
+						</p><span class="textTwo"> ¡Conócela! </span>
 					<a class="button_code" href="https://github.com/varinea/proyecto-peliculas"
 						target="_blank">Demo</a>
 					<a class="button_demo" href="https://varinea.github.io/proyecto-peliculas/src/index.html" target="_blank">Code</a>
@@ -97,9 +110,9 @@
 			</div>
 		</section>
 
-		<section class="section">
+		<section id="tech">
 			<aside class="aside">
-				<div class="tech">
+				<ul class="tech">
 					<img id="proyect" class="proyect_img" src="./img/tecnologias_2.png" alt="Sección Proyectos"></img>
 					<img class="icons_img1" src="./img/iconos/1.png" alt="HTML"></img>
 					<img class="icons_img2" src="./img/iconos/2.png" alt="CSS"></img>
@@ -111,21 +124,31 @@
 					<img class="icons_img8" src="./img/iconos/8.png" alt="BOOSTRAP"></img>
 					<img class="icons_img9" src="./img/iconos/9.png" alt="BOOSTRAP"></img>
 					<img class="icons_img10" src="./img/iconos/10.png" alt="BOOSTRAP"></img>
-				</div>
+				</ul>
 			</aside>
 		</section>
-		<footer id="contact" class="footer">
-			<nav class="pie">
+
+		<section>
+			<aside>
+				<img class="contact_img" src="./img/contacto.png" alt="Sección Contacto"></img>
+				<div class="contactON"> 
 				<a href="https://github.com/varinea"  target="_blank"><img src="./img/iconos/github.png" alt="github"></a>
 				<a href="https://app.talento.laboratoria.la/profile/FN6rsnOE5TbKJbL8z7rOB6rrZN23"  target="_blank"><img src="./img/iconos/laboratoria.png" alt="Laboratoria"></a>
 				<a href="https://www.linkedin.com/in/varinea-fernanda-l%C3%B3pez-garrido/"  target="_blank"><img src="./img/iconos/linkedin.png" alt="Linkedin"></a>
 				<a href="mailto:varinea.lopez@gmail.com" target="_blank"> <img src="./img/iconos/msn.png" alt="gmail"></a>	
-				<p class="footerP">Página desarrollada y diseñada por <span class="laboratoria">Varinea López Garrido</span>
-			</nav>
+			</div>
+			</aside>
+		</section>
+		<footer id="contact" class="footer">
+			<div class="pie">
+				<p class="footerP">Página desarrollada y diseñada por<span class="laboratoria">Varinea López Garrido</span>
+			</div>
 		</footer>
 	</div>
 
 	<script src="app.js"> </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
