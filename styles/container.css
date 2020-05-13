@@ -229,7 +229,7 @@ body {
 
 
 
-@media all and (max-width: 1000px) {
+@media all and (min-width: 1000px) {
 	.fatherFlex {
 		display: flex;
 		justify-content: center;
